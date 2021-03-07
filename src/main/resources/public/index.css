@@ -1,0 +1,50 @@
+body {
+    background-color: #006d77;
+}
+
+.container {
+    text-align: center;
+}
+
+.principal-title {
+    text-align: center;
+	color: white;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.centerdiv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #74c69d;
+    padding: 25px 25px;
+    border: 1px solid #74c69d;
+    border-radius: 10px;
+}
+
+.title-form {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    padding: 10px 10px;
+    color: white;
+    background-color: #219ebc;
+    border: 1px solid #219ebc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #023047;
+    border-color: #023047;
+}
